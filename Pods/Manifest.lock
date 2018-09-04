@@ -1,0 +1,44 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - FDFullscreenPopGesture (1.1)
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (1.1.5):
+    - KTVCocoaHTTPServer
+  - MJRefresh (3.1.15.6)
+  - ZFPlayer (3.1.6):
+    - ZFPlayer/Core (= 3.1.6)
+  - ZFPlayer/AVPlayer (3.1.6):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.1.6):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.1.6)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture
+  - KTVHTTPCache (~> 1.1.5)
+  - MJRefresh
+  - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
+  - ZFPlayer/ControlView (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - FDFullscreenPopGesture
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
+    - MJRefresh
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: 8f4b21cd81122f7211dc01f02ec728794ebdc9e1
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  ZFPlayer: bac23889b25e83fd3644ec40c8e7e9622e331ecb
+
+PODFILE CHECKSUM: 2302a2ae2af6a0ddc5599544d2387325207098e0
+
+COCOAPODS: 1.5.3

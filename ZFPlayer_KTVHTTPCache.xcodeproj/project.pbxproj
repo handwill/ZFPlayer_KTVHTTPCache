@@ -15,6 +15,12 @@
 		35A30660213E66FF0026B2DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A3065F213E66FF0026B2DC /* main.m */; };
 		35A3066A213E66FF0026B2DC /* ZFPlayer_KTVHTTPCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A30669213E66FF0026B2DC /* ZFPlayer_KTVHTTPCacheTests.m */; };
 		35A30675213E67000026B2DC /* ZFPlayer_KTVHTTPCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A30674213E67000026B2DC /* ZFPlayer_KTVHTTPCacheUITests.m */; };
+		35A30685213E695E0026B2DC /* ZFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A30684213E695E0026B2DC /* ZFTableViewCell.m */; };
+		35A3068A213E69910026B2DC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 35A30687213E69900026B2DC /* data.json */; };
+		35A3068B213E69910026B2DC /* ZFTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A30689213E69900026B2DC /* ZFTableData.m */; };
+		35A30691213E6A4A0026B2DC /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A3068E213E6A4A0026B2DC /* NSString+Size.m */; };
+		35A30692213E6A4A0026B2DC /* ZFTableViewCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A30690213E6A4A0026B2DC /* ZFTableViewCellLayout.m */; };
+		D9238CF0450266C9DD40078F /* libPods-ZFPlayer_KTVHTTPCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 724C261927FF22EC156FE606 /* libPods-ZFPlayer_KTVHTTPCache.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		35A30670213E67000026B2DC /* ZFPlayer_KTVHTTPCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFPlayer_KTVHTTPCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A30674213E67000026B2DC /* ZFPlayer_KTVHTTPCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPlayer_KTVHTTPCacheUITests.m; sourceTree = "<group>"; };
 		35A30676213E67000026B2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A30683213E695E0026B2DC /* ZFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCell.h; sourceTree = "<group>"; };
+		35A30684213E695E0026B2DC /* ZFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCell.m; sourceTree = "<group>"; };
+		35A30687213E69900026B2DC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		35A30688213E69900026B2DC /* ZFTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableData.h; sourceTree = "<group>"; };
+		35A30689213E69900026B2DC /* ZFTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableData.m; sourceTree = "<group>"; };
+		35A3068D213E6A4A0026B2DC /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		35A3068E213E6A4A0026B2DC /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		35A3068F213E6A4A0026B2DC /* ZFTableViewCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellLayout.h; sourceTree = "<group>"; };
+		35A30690213E6A4A0026B2DC /* ZFTableViewCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCellLayout.m; sourceTree = "<group>"; };
+		724C261927FF22EC156FE606 /* libPods-ZFPlayer_KTVHTTPCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFPlayer_KTVHTTPCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86212E2BBE1D8AFE91FDCC73 /* Pods-ZFPlayer_KTVHTTPCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayer_KTVHTTPCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPlayer_KTVHTTPCache/Pods-ZFPlayer_KTVHTTPCache.release.xcconfig"; sourceTree = "<group>"; };
+		B1166C9C55242D50BFBAE8E0 /* Pods-ZFPlayer_KTVHTTPCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayer_KTVHTTPCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPlayer_KTVHTTPCache/Pods-ZFPlayer_KTVHTTPCache.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9238CF0450266C9DD40078F /* libPods-ZFPlayer_KTVHTTPCache.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				35A30668213E66FF0026B2DC /* ZFPlayer_KTVHTTPCacheTests */,
 				35A30673213E67000026B2DC /* ZFPlayer_KTVHTTPCacheUITests */,
 				35A3064E213E66F00026B2DC /* Products */,
+				F4870F5D451DD10AE1276000 /* Pods */,
+				EA550F8FBAED4E1269728923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,9 @@
 		35A3064F213E66F00026B2DC /* ZFPlayer_KTVHTTPCache */ = {
 			isa = PBXGroup;
 			children = (
+				35A3068C213E6A4A0026B2DC /* Other */,
+				35A30686213E69900026B2DC /* Model */,
+				35A30682213E69380026B2DC /* view */,
 				35A30650213E66F00026B2DC /* AppDelegate.h */,
 				35A30651213E66F00026B2DC /* AppDelegate.m */,
 				35A30653213E66F00026B2DC /* ViewController.h */,
@@ -132,6 +156,53 @@
 			path = ZFPlayer_KTVHTTPCacheUITests;
 			sourceTree = "<group>";
 		};
+		35A30682213E69380026B2DC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				35A30683213E695E0026B2DC /* ZFTableViewCell.h */,
+				35A30684213E695E0026B2DC /* ZFTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		35A30686213E69900026B2DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35A30687213E69900026B2DC /* data.json */,
+				35A30688213E69900026B2DC /* ZFTableData.h */,
+				35A30689213E69900026B2DC /* ZFTableData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35A3068C213E6A4A0026B2DC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				35A3068D213E6A4A0026B2DC /* NSString+Size.h */,
+				35A3068E213E6A4A0026B2DC /* NSString+Size.m */,
+				35A3068F213E6A4A0026B2DC /* ZFTableViewCellLayout.h */,
+				35A30690213E6A4A0026B2DC /* ZFTableViewCellLayout.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EA550F8FBAED4E1269728923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				724C261927FF22EC156FE606 /* libPods-ZFPlayer_KTVHTTPCache.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4870F5D451DD10AE1276000 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1166C9C55242D50BFBAE8E0 /* Pods-ZFPlayer_KTVHTTPCache.debug.xcconfig */,
+				86212E2BBE1D8AFE91FDCC73 /* Pods-ZFPlayer_KTVHTTPCache.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35A30679213E67000026B2DC /* Build configuration list for PBXNativeTarget "ZFPlayer_KTVHTTPCache" */;
 			buildPhases = (
+				28D2DA3AF7EF73D6100D0703 /* [CP] Check Pods Manifest.lock */,
 				35A30649213E66F00026B2DC /* Sources */,
 				35A3064A213E66F00026B2DC /* Frameworks */,
 				35A3064B213E66F00026B2DC /* Resources */,
+				D4F2D66490BEC0ECF4596D17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +311,7 @@
 				35A3065D213E66FF0026B2DC /* LaunchScreen.storyboard in Resources */,
 				35A3065A213E66FF0026B2DC /* Assets.xcassets in Resources */,
 				35A30658213E66F00026B2DC /* Main.storyboard in Resources */,
+				35A3068A213E69910026B2DC /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +331,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28D2DA3AF7EF73D6100D0703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFPlayer_KTVHTTPCache-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F2D66490BEC0ECF4596D17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZFPlayer_KTVHTTPCache/Pods-ZFPlayer_KTVHTTPCache-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFPlayer_KTVHTTPCache/Pods-ZFPlayer_KTVHTTPCache-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35A30649213E66F00026B2DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +379,11 @@
 			files = (
 				35A30655213E66F00026B2DC /* ViewController.m in Sources */,
 				35A30660213E66FF0026B2DC /* main.m in Sources */,
+				35A3068B213E69910026B2DC /* ZFTableData.m in Sources */,
 				35A30652213E66F00026B2DC /* AppDelegate.m in Sources */,
+				35A30691213E6A4A0026B2DC /* NSString+Size.m in Sources */,
+				35A30685213E695E0026B2DC /* ZFTableViewCell.m in Sources */,
+				35A30692213E6A4A0026B2DC /* ZFTableViewCellLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +550,7 @@
 		};
 		35A3067A213E67000026B2DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1166C9C55242D50BFBAE8E0 /* Pods-ZFPlayer_KTVHTTPCache.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +568,7 @@
 		};
 		35A3067B213E67000026B2DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86212E2BBE1D8AFE91FDCC73 /* Pods-ZFPlayer_KTVHTTPCache.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
